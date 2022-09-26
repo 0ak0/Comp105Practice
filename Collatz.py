@@ -14,6 +14,7 @@ steplist = []
 steplist.insert(0, 0)
 steplist.insert(1, 0)  # list position correlates to n, n starts at 2 so insert values at 0 and 1
 
+
 # Function to check for evens or odds
 def evencheck(num):
     global even
@@ -28,6 +29,7 @@ def evencheck(num):
 # Begin sequence and count each step
 # Loop here is used until n (the start) hits 10,000
 # Log step count in list, with n (starting number) as position in list
+
 
 m = n
 
