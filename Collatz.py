@@ -62,3 +62,5 @@ largeststep = max(steplist)
 lspos = steplist.index(largeststep)  # Find the largest value in the list, then find its position
 
 print(str(lspos) + " has the longest Collatz Sequence at " + str(largeststep) + " steps.")
+#  If this is correct, the output should be 261 steps for when n = 6171
+#  This is working correctly
